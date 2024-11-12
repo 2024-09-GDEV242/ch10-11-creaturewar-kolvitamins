@@ -25,6 +25,7 @@ public class Randomizer
      * @param  maxValue  the cap of the random number generation (inclusive)
      * @return a random number from 1..maxvalue
      */
+    
     public static int nextInt(int maxValue)
     {
         if (rand == null) {
